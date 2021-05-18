@@ -37,7 +37,7 @@ public class BaseClass
 		report.attachReporter(htmlreport);
 		
 	}
-	
+	// Rohit
 	public BaseClass() {
 		
 		prop = new Properties();
@@ -54,9 +54,6 @@ public class BaseClass
 		}
 		
 	}
-	
-	
-	
 	public void initilization( ) {
 	System.setProperty("webdriver.chrome.driver","C:\\Selenium_Projects\\chromeDriver\\chromedriver_win32 (2)\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -74,7 +71,5 @@ public class BaseClass
 	public void flushmethod() 
 	{
 		report.flush();
-	}
-
-	
+	}	
 }
